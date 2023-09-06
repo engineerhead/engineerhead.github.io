@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: EngineerHead 
+title: EngineerHead
 email: engineerhead@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This blog covers personal and professional expereinces of EngineerHead
 twitter_username: engineerhead_head
 github_username: engineerhead
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -57,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Engineer Head"
-  avatar : "/assets/images/bio.jpeg"
-  bio    : "I try to make silicon understand when to switch on or off."
+  name: "Engineer Head"
+  avatar: "/assets/images/bio.jpeg"
+  bio: "I try to make silicon understand when to switch on or off."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -79,7 +79,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/engineerhead"
-
 
 defaults:
   # _posts
@@ -118,5 +117,3 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "engineerheads-blog"
-
-    
