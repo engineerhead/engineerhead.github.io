@@ -1,3 +1,4 @@
+---
 title:  "CosmWasm: A Rust Framework Tutorial/Course 05"
 ---
 ![](/assets/images/rust-lang.png)
