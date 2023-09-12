@@ -43,4 +43,4 @@ Last but not least `unimplemented!()` in function body is a macro placeholder th
 			    .add_message("message", "Hello, World")
     )
 
-That's is it. We construct a new `Response` object by calling `new` method on it.  Then we chain the constructor call with an `add_message` method which takes a key and message as inputs. Key in this case is `message` while `message` is "Hello, World". In next chapter, we are going to write test this basic functionality.
+That's is it. We construct a new `Response` object by calling `new` method on it.  Then we chain the constructor call with an `add_attribute` method which takes a key and message as inputs. Key in this case is `message` while `message` is "Hello, World". In next chapter, we are going to write test this basic functionality.
