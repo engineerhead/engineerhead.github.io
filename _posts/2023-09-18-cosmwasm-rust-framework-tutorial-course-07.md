@@ -2,7 +2,7 @@
 title:  "CosmWasm: A Rust Framework Tutorial/Course 07"
 ---
 ![](/assets/images/rust-lang.png)
-Previously, a [simple](https://engineerhead.github.io/2023/09/05/cosmwasm-rust-framework-tutorial-course-04.html) [contract's functionality](https://engineerhead.github.io/2023/09/11/cosmwasm-rust-framework-tutorial-course-05.html) and (tests)[https://engineerhead.github.io/2023/09/12/cosmwasm-rust-framework-tutorial-course-06.html] were written to get introduced with CosmWasm.  Before diving into somewhat complex operations, let's see how to handle contract instantiation for purposes like setting an admin for the contract. Setting an admin would enable us to upgrade the contract and safeguard access to some other operations. This can be written from scratch but CosmWasm team has written some utility contracts for such common cases. So! we are going to rely on them.
+Previously, a [simple](https://engineerhead.github.io/2023/09/05/cosmwasm-rust-framework-tutorial-course-04.html) [contract's functionality](https://engineerhead.github.io/2023/09/11/cosmwasm-rust-framework-tutorial-course-05.html) and [tests](https://engineerhead.github.io/2023/09/12/cosmwasm-rust-framework-tutorial-course-06.html) were written to get introduced with CosmWasm.  Before diving into somewhat complex operations, let's see how to handle contract instantiation for purposes like setting an admin for the contract. Setting an admin would enable us to upgrade the contract and safeguard access to some other operations. This can be written from scratch but CosmWasm team has written some utility contracts for such common cases. So! we are going to rely on them.
 
 Run the following  command in root of our previously generated project.
 
